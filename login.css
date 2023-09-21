@@ -1,0 +1,117 @@
+body{
+	background-image:url(img/netflix\ BG.jpg);
+	color: white;
+	font-family: sans-serif;}
+.logo-image{
+	height: 40px;
+	width: 148px;
+	background-image: url(img/logo.png);
+	background-size: cover;
+}
+.nav-bar{
+    padding-top: 1rem;
+}
+@media only screen and (max-width: 600px) {
+	.logo-image{
+		height: 40px;
+		width: 148px;
+	}
+    .nav-bar{
+        padding-top: 1rem;
+        background-color: black;
+    }}
+
+/*login*/
+
+.login{
+    background-color: black;
+    opacity: 80%;
+    height: 660px;
+    width:450px ;
+    padding: 60px 68px 40px;
+    display: flex;
+    flex-direction: row;
+}
+.login-box{
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    width:380px ;
+    
+    
+}
+#login-form{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+
+}
+#input-password{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+}
+#input-mail{
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+}
+#sign-btn{
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+   
+}
+.form-linkk{
+    display: flex;
+    
+}
+@media only screen and (max-width: 600px) {
+	.login{
+        background-color: black;
+      
+        height: auto;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+    }
+}
+/*foter*/
+.footer-sec{
+	background-color: black;
+    opacity: 80%;
+	color: white;
+	margin-top: 0.5rem;
+	font-size: 14px;
+	
+}
+.footer-contents{
+	display: grid;
+	grid-template-columns: 1fr;
+	gap:1rem;
+	padding: 10px 10px 4px;
+}
+.footer-links{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	
+}
+.footer-contents a{
+	color: white;
+}
+.footer-links ul li{
+	list-style: none;
+	text-decoration: underline;
+}
+@media only screen and (max-width: 1000px) {
+	.footer-links{
+		display: grid;
+		grid-template-columns: 2fr 2fr;
+		gap: 12px;
+	}
+}
